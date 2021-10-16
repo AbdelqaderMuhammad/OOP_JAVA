@@ -1,0 +1,20 @@
+# What is the difference between constructors and methods ?
+1 - The purpose of constructor is to initialize the object of a class while the purpose of a method is to perform a task by executing java code.
+2 - Constructors cannot be abstract, final, static and synchronised while methods can be.
+3 - Constructors do not have return types while methods do.
+
+
+# Types of constructors :
+1- Default constructor
+If you do not implement any constructor in your class, Java compiler inserts a default constructor into your code on your behalf
+If you implement any constructor then you no longer receive a default constructor from Java compiler.
+2- no-arg constructor
+The signature is same as default constructor, however body can have any code unlike default constructor where the body of the constructor is empty.
+3- Parameterized constructor
+
+
++ If a parameterized constructor was written, we cannot create an object using the default constructor.
++ constructor chaining is When A constructor calls another constructor of same class
++ Whenever a child class constructor gets invoked it implicitly invokes the constructor of parent class
++ super() and this() cannot be written in a constructor together.
+
