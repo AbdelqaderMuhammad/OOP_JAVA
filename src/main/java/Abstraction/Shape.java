@@ -5,7 +5,7 @@ public abstract class Shape {
     /**
      * We cannot instantiate an object from an abstract class.
      * We can get different methods either abstracted or even implemented.
-     *  - Abstract methods should be in a abstract classes.
+     *  - Abstract methods should be in an abstracted classes.
      *  - Abstract methods has to be overridden.
      *  - Abstract methods do not have a body.
      */
@@ -26,14 +26,15 @@ public abstract class Shape {
      *
      */
 
+    // i can see it through the inheritance.
+    protected int val ;
 
-    public abstract int calculatePerimeter();
 
     public final void printShapeMessage() {
         System.out.println("A shape class has been inherited.");
     }
 
-
+    public abstract int calculatePerimeter();
 
 
 }

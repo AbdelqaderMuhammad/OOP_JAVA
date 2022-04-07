@@ -5,7 +5,7 @@ public class Sum {
     /**
      * Overloading allows different methods to have the same name,
      * but different signatures where the signature can differ by the number of
-     * input parameters or type of input parameters or both.
+     * input parameters or type of input parameters or both or the order of the arguments
      *
      * We can have two ore more static methods with same name, but differences in input parameters
      */
